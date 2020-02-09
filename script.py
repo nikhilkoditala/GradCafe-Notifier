@@ -21,6 +21,12 @@ date = []
 notes = []
 
 def crawler():
+    global universities
+    global program
+    global status
+    global date
+    global notes
+    
     universities = []
     program = []
     status = []
@@ -50,6 +56,7 @@ def crawler():
 
 
 def send_mail():
+    print('sending email')
     s = smtplib.SMTP('smtp.gmail.com', 587) 
     s.starttls() 
     s.login(sender_email,send_password) 
@@ -69,6 +76,7 @@ def send_mail():
 
     s.sendmail(sender_email, reciever_email, msg.as_string()) 
     s.quit()
+    print('email sent')
 
 
 while(1):
