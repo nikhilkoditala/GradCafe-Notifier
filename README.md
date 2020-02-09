@@ -13,7 +13,7 @@ pages = ['https://www.thegradcafe.com/survey/index.php?q=cornell*+computer+scien
 ```
 * Also change the sender_email, sender_password and reciever_email variables accordingly.
 * Turn on access for less secure apps in the sender email account (https://www.google.com/settings/security/lesssecureapps). I recommend making a new gmail account and using it as sender email ID.
-* Login to Heroku and dreate an app 
+* Login to Heroku and create an app 
 * If you haven't already, Download and Install Heroku CLI (https://devcenter.heroku.com/articles/heroku-cli)
 * Login to add SSH keys
 ```
