@@ -8,9 +8,9 @@ import time
 # gsu, gtech, oregon, uiuc,uic, purdue, cornell
 pages = ['https://www.thegradcafe.com/survey/index.php?q=georgia+state+university*+computer+science*&t=n&o=','https://www.thegradcafe.com/survey/index.php?q=georgia+institute+of+technology*+computer+science*&t=n&o=','https://www.thegradcafe.com/survey/index.php?q=oregon+state+university*+computer+science*&t=n&o=','https://www.thegradcafe.com/survey/index.php?q=university+of+illinois+urbana*+computer+science*&t=n&o=', 'https://www.thegradcafe.com/survey/index.php?q=university+of+illinois+chicago*+computer+science*&t=n&o=','https://www.thegradcafe.com/survey/index.php?q=purdue*+computer+science*&t=n&o=','https://www.thegradcafe.com/survey/index.php?q=cornell*+computer+science*&t=n&o=']
 
-sender_email = 'gradcafe.notifier.20@gmail.com'
-send_password = 'sgradnotif'
-reciever_email = 'nikhilkodit1@gmail.com'
+sender_email = 'sender-email-id'
+send_password = 'sender-password'
+reciever_email = 'reciever-email-id'
 
 lastcontent = ['' for i in range(len(pages))]
 
